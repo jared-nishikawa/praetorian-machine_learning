@@ -5,6 +5,10 @@ import tools
 import numpy as np
 
 def guess(values):
+    """Take a list of 12 values, and return the index of
+    the max value (as well as the actual maximum).
+    This list is the output from the neural net.
+    """
     V = list(values)
     M = max(V)
     ind = V.index(M)
